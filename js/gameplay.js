@@ -3,8 +3,7 @@ $(document).ready(function() {
 	soundManager.setup({
 	  url: 'js/soundmanager/swf',
 	  flashVersion: 9,
-	  onready: start,
-	  debugMode: false
+	  onready: start
 	});
 
 	function start(){
